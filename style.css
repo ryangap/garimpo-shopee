@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Oswald&family=Poppins:wght@300;400;500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+}
+
+header {
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card img {  
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card {
+    width: 20%;
+}
+
+@media (max-width: 800px) {
+    .card {
+        width: 40%;
+    }
+}
+
+.botao {
+    background-color: #ee4d2d;
+    border-radius: 10px;
+}
+
+.botao p {
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+/* ITENS POR SEPARACAO */
+
+
+.itens-casa,
+.roupas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.idProduto {
+    text-align: center;
+}
+
+.displayFlex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.displayFlex button {
+    border-radius: 8px;
+    border: 2px solid #ee4d2d;
+    background-color: #ee4d2d;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.displayFlex button img {
+    height: 25px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+    outline: none;
+    width: 50px;
+    border-radius: 8px;
+    border: 2px solid #ee4d2d;
+    margin-right: 2px;
+    text-align: center; 
+}
+
+
+footer {
+    background-color: #ee4d2d;
+    color:#fff;
+}
+
+.feito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.ryan,
+.joao {
+    margin: 20px;
+    margin-top: -10px;
+}
+
+.ryan img,
+.joao img {
+    height: 50px;
+}
+
+.insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-to-top {
+    background-color: #fff;
+    color: #ee4d2d;
+    border: 3px solid #ee4d2d;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.scroll-to-top img {
+    height: 25px;
+}
+
